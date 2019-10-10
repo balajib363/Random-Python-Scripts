@@ -1,0 +1,16 @@
+# install Opencv 4 from source
+
+## Observations
+
+Try to be in OS level python and run cmake.
+
+If we require for different virtual env, we have an option of symblink to that particular environment.
+
+1. cd ~/.virtualenvs/cv/lib/python3.5/site-packages/   # This can be any ENV
+2. ln -s /usr/local/python/cv2/python-3.5/cv2.so cv2.so
+
+This worked for me
+
+cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=/usr/bin/python3 -D BUILD_EXAMPLES=ON ..
+
+After this make sure there is python interpreter as output.
