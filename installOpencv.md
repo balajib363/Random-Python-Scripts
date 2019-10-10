@@ -14,3 +14,7 @@ This worked for me
 cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=/usr/bin/python3 -D BUILD_EXAMPLES=ON ..
 
 After this make sure there is python interpreter as output.
+
+Reference is:
+
+<https://www.pyimagesearch.com/2018/08/15/how-to-install-opencv-4-on-ubuntu/>
