@@ -6,7 +6,7 @@ from keras.layers.convolutional import MaxPooling2D
 from keras.layers.convolutional import ZeroPadding2D
 from keras.layers.core import Activation
 from keras.layers.core import Dense
-from keras.layers import Flatten, GlobalAveragePooling2D
+from keras.layers import Flatten
 from keras.layers import Input
 from keras.models import Model
 from keras.layers import add
@@ -112,12 +112,9 @@ class ResNet:
 		x = Activation("relu")(x)
 		x = AveragePooling2D((8, 8))(x)
 
-		# change dense to conv
-		x = Conv2D(10, (8,8), name='final_conv')(x)
-		x = GlobalAveragePooling2D()(x)
 		# softmax classifier
-		# x = Flatten()(x)
-		# x = Dense(classes, kernel_regularizer=l2(reg))(x)
+		x = Flatten()(x)
+		x = Dense(classes, kernel_regularizer=l2(reg))(x)
 		x = Activation("softmax")(x)
 
 		# create the model
