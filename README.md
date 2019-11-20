@@ -13,3 +13,7 @@ https://github.com/lazyprogrammer/facial-expression-recognition
 
 # OpenCV
 
+# Colab files
+a. Detectron2
+https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5#scrollTo=9_FzH13EjseR
+
