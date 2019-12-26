@@ -24,3 +24,6 @@ c=0 rename  's/.*/sprintf("marksheet%d.jpg", ++$ENV{c})/e' *
 # change image orientation
 exiftran -ai *.JPG
 
+#How to embed the video url in the markdown.
+* Used http://embedyoutube.org/ . Provide the youtube url and this website will generate the embed url, which can be used in the markdown.
+
