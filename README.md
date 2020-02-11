@@ -27,3 +27,10 @@ exiftran -ai *.JPG
 #How to embed the video url in the markdown.
 * Used http://embedyoutube.org/ . Provide the youtube url and this website will generate the embed url, which can be used in the markdown.
 
+# Add github file in colab
+# import clr file from github
+# Fetch a single <1MB file using the raw GitHub URL.
+!curl --remote-name \
+     -H 'Accept: application/vnd.github.v3.raw' \
+     --location https://raw.githubusercontent.com/BalajiB197/EIP2/master/keraslearningrate/clr_callback.py
+
