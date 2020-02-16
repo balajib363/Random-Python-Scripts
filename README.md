@@ -33,4 +33,10 @@ exiftran -ai *.JPG
 !curl --remote-name \
      -H 'Accept: application/vnd.github.v3.raw' \
      --location https://raw.githubusercontent.com/BalajiB197/EIP2/master/keraslearningrate/clr_callback.py
+     
+# Streaming Video
+https://opensource.com/article/19/1/basic-live-video-streaming-server
+
+# ffmpeg iot python rapsberry pi
+https://software.intel.com/en-us/SetupGateway-MQTT
 
