@@ -17,6 +17,9 @@ https://github.com/hadrienj/deepLearningBook-Notes
 
 # OpenCV
 
+# Image pre-processing
+https://github.com/hadrienj/Preprocessing-for-deep-learning
+
 # Colab files
 a. Detectron2
 https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5#scrollTo=9_FzH13EjseR
