@@ -11,6 +11,10 @@ https://github.com/MorvanZhou/Tensorflow-Tutorial
 # All ML and DL
 https://github.com/lazyprogrammer/facial-expression-recognition
 
+# DL Book
+https://hadrienj.github.io/tags/#computer-vision
+https://github.com/hadrienj/deepLearningBook-Notes
+
 # OpenCV
 
 # Colab files
