@@ -47,3 +47,6 @@ https://opensource.com/article/19/1/basic-live-video-streaming-server
 # ffmpeg iot python rapsberry pi
 https://software.intel.com/en-us/SetupGateway-MQTT
 
+# image captioning
+https://github.com/hlamba28/Automatic-Image-Captioning/blob/master/Automatic%20Image%20Captioning.ipynb
+
