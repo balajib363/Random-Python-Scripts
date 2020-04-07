@@ -50,3 +50,6 @@ https://software.intel.com/en-us/SetupGateway-MQTT
 # image captioning
 https://github.com/hlamba28/Automatic-Image-Captioning/blob/master/Automatic%20Image%20Captioning.ipynb
 
+# Transfer Learning 
+https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a
+
