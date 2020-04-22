@@ -53,3 +53,6 @@ https://github.com/hlamba28/Automatic-Image-Captioning/blob/master/Automatic%20I
 # Transfer Learning 
 https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a
 
+# How to be successful in Data science
+https://analyticsindiamag.com/only-learning-what-you-need-is-key-to-succeed-as-a-data-scientist-says-this-head-of-data-science/
+
