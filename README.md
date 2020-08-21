@@ -15,6 +15,7 @@ https://github.com/lazyprogrammer/facial-expression-recognition
 # DL Book
 https://hadrienj.github.io/tags/#computer-vision
 https://github.com/hadrienj/deepLearningBook-Notes
+https://github.com/loveunk/Deep-learning-books
 
 # OpenCV
 
