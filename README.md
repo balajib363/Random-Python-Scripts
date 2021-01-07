@@ -27,7 +27,7 @@ a. Detectron2
 https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5#scrollTo=9_FzH13EjseR
 
 # extract frames from video
-ffmpeg -ss 60 -i input.mp4 -qscale:v 4 -frames:v 1 output.jpg
+https://gist.github.com/loretoparisi/a9277b2eb4425809066c380fed395ab3
 # rename files in linux
 c=0 rename  's/.*/sprintf("marksheet%d.jpg", ++$ENV{c})/e' *
 # change image orientation
